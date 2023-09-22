@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0D86092A64DF7D00894EAA /* SMXSwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D86082A64DF7D00894EAA /* SMXSwipeTransitionDelegate.m */; };
+		2B9A6FE92AAED6E700C89076 /* SMXPrestationFirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A6FE82AAED6E700C89076 /* SMXPrestationFirstViewViewController.m */; };
+		2B9A6FEC2AAED6FB00C89076 /* SMXPrestationSubViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A6FEB2AAED6FB00C89076 /* SMXPrestationSubViewViewController.m */; };
+		2B9A6FEF2AAED71900C89076 /* SMXPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A6FEE2AAED71900C89076 /* SMXPresentationController.m */; };
+		2BF0A2B72A629265004F5FB5 /* SMXJianBianTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0A2B62A629265004F5FB5 /* SMXJianBianTransitionAnimator.m */; };
+		2BF0A2BB2A62E636004F5FB5 /* SMXSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0A2BA2A62E636004F5FB5 /* SMXSwipeViewController.m */; };
+		2BF0A2BE2A62E648004F5FB5 /* SMXSwipeSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0A2BD2A62E648004F5FB5 /* SMXSwipeSubViewController.m */; };
+		2BF0A2C12A62E670004F5FB5 /* SMXSwipeTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0A2C02A62E670004F5FB5 /* SMXSwipeTransitionAnimator.m */; };
+		2BF0A2C42A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0A2C32A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.m */; };
+		2BF4145F2A51B73E00480F9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4145E2A51B73E00480F9B /* AppDelegate.m */; };
+		2BF414622A51B73E00480F9B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414612A51B73E00480F9B /* SceneDelegate.m */; };
+		2BF414652A51B73E00480F9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414642A51B73E00480F9B /* ViewController.m */; };
+		2BF4146A2A51B73F00480F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF414692A51B73F00480F9B /* Assets.xcassets */; };
+		2BF4146D2A51B73F00480F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4146B2A51B73F00480F9B /* LaunchScreen.storyboard */; };
+		2BF414702A51B73F00480F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4146F2A51B73F00480F9B /* main.m */; };
+		2BF4147A2A51B73F00480F9B /* SMXTranstionStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414792A51B73F00480F9B /* SMXTranstionStudyTests.m */; };
+		2BF414842A51B73F00480F9B /* SMXTranstionStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414832A51B73F00480F9B /* SMXTranstionStudyUITests.m */; };
+		2BF414862A51B73F00480F9B /* SMXTranstionStudyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414852A51B73F00480F9B /* SMXTranstionStudyUITestsLaunchTests.m */; };
+		2BF414952A51BAD600480F9B /* SMXJianBianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414942A51BAD600480F9B /* SMXJianBianViewController.m */; };
+		2BF414982A51BBD100480F9B /* SMXJianBianSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF414972A51BBD100480F9B /* SMXJianBianSubViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BF414762A51B73F00480F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF414522A51B73E00480F9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF414592A51B73E00480F9B;
+			remoteInfo = SMXTranstionStudy;
+		};
+		2BF414802A51B73F00480F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF414522A51B73E00480F9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF414592A51B73E00480F9B;
+			remoteInfo = SMXTranstionStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B0D86072A64DF7D00894EAA /* SMXSwipeTransitionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXSwipeTransitionDelegate.h; sourceTree = "<group>"; };
+		2B0D86082A64DF7D00894EAA /* SMXSwipeTransitionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXSwipeTransitionDelegate.m; sourceTree = "<group>"; };
+		2B9A6FE72AAED6E700C89076 /* SMXPrestationFirstViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXPrestationFirstViewViewController.h; sourceTree = "<group>"; };
+		2B9A6FE82AAED6E700C89076 /* SMXPrestationFirstViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXPrestationFirstViewViewController.m; sourceTree = "<group>"; };
+		2B9A6FEA2AAED6FB00C89076 /* SMXPrestationSubViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXPrestationSubViewViewController.h; sourceTree = "<group>"; };
+		2B9A6FEB2AAED6FB00C89076 /* SMXPrestationSubViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXPrestationSubViewViewController.m; sourceTree = "<group>"; };
+		2B9A6FED2AAED71900C89076 /* SMXPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXPresentationController.h; sourceTree = "<group>"; };
+		2B9A6FEE2AAED71900C89076 /* SMXPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXPresentationController.m; sourceTree = "<group>"; };
+		2BF0A2B52A629265004F5FB5 /* SMXJianBianTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXJianBianTransitionAnimator.h; sourceTree = "<group>"; };
+		2BF0A2B62A629265004F5FB5 /* SMXJianBianTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXJianBianTransitionAnimator.m; sourceTree = "<group>"; };
+		2BF0A2B92A62E636004F5FB5 /* SMXSwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXSwipeViewController.h; sourceTree = "<group>"; };
+		2BF0A2BA2A62E636004F5FB5 /* SMXSwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXSwipeViewController.m; sourceTree = "<group>"; };
+		2BF0A2BC2A62E648004F5FB5 /* SMXSwipeSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXSwipeSubViewController.h; sourceTree = "<group>"; };
+		2BF0A2BD2A62E648004F5FB5 /* SMXSwipeSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXSwipeSubViewController.m; sourceTree = "<group>"; };
+		2BF0A2BF2A62E670004F5FB5 /* SMXSwipeTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXSwipeTransitionAnimator.h; sourceTree = "<group>"; };
+		2BF0A2C02A62E670004F5FB5 /* SMXSwipeTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXSwipeTransitionAnimator.m; sourceTree = "<group>"; };
+		2BF0A2C22A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXSwipeInteractiveTransitionAnimator.h; sourceTree = "<group>"; };
+		2BF0A2C32A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXSwipeInteractiveTransitionAnimator.m; sourceTree = "<group>"; };
+		2BF4145A2A51B73E00480F9B /* SMXTranstionStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMXTranstionStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF4145D2A51B73E00480F9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BF4145E2A51B73E00480F9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BF414602A51B73E00480F9B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2BF414612A51B73E00480F9B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2BF414632A51B73E00480F9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BF414642A51B73E00480F9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BF414692A51B73F00480F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BF4146C2A51B73F00480F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BF4146E2A51B73F00480F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF4146F2A51B73F00480F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BF414752A51B73F00480F9B /* SMXTranstionStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMXTranstionStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF414792A51B73F00480F9B /* SMXTranstionStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXTranstionStudyTests.m; sourceTree = "<group>"; };
+		2BF4147F2A51B73F00480F9B /* SMXTranstionStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMXTranstionStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF414832A51B73F00480F9B /* SMXTranstionStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXTranstionStudyUITests.m; sourceTree = "<group>"; };
+		2BF414852A51B73F00480F9B /* SMXTranstionStudyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXTranstionStudyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2BF414932A51BAD600480F9B /* SMXJianBianViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXJianBianViewController.h; sourceTree = "<group>"; };
+		2BF414942A51BAD600480F9B /* SMXJianBianViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXJianBianViewController.m; sourceTree = "<group>"; };
+		2BF414962A51BBD100480F9B /* SMXJianBianSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXJianBianSubViewController.h; sourceTree = "<group>"; };
+		2BF414972A51BBD100480F9B /* SMXJianBianSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXJianBianSubViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF414572A51B73E00480F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF414722A51B73F00480F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF4147C2A51B73F00480F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9A6FE62AAED5D700C89076 /* Custom Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A6FE72AAED6E700C89076 /* SMXPrestationFirstViewViewController.h */,
+				2B9A6FE82AAED6E700C89076 /* SMXPrestationFirstViewViewController.m */,
+				2B9A6FEA2AAED6FB00C89076 /* SMXPrestationSubViewViewController.h */,
+				2B9A6FEB2AAED6FB00C89076 /* SMXPrestationSubViewViewController.m */,
+				2B9A6FED2AAED71900C89076 /* SMXPresentationController.h */,
+				2B9A6FEE2AAED71900C89076 /* SMXPresentationController.m */,
+			);
+			path = "Custom Presentation";
+			sourceTree = "<group>";
+		};
+		2BF0A2B82A62E4B3004F5FB5 /* swipe */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0A2B92A62E636004F5FB5 /* SMXSwipeViewController.h */,
+				2BF0A2BA2A62E636004F5FB5 /* SMXSwipeViewController.m */,
+				2BF0A2BC2A62E648004F5FB5 /* SMXSwipeSubViewController.h */,
+				2BF0A2BD2A62E648004F5FB5 /* SMXSwipeSubViewController.m */,
+				2BF0A2BF2A62E670004F5FB5 /* SMXSwipeTransitionAnimator.h */,
+				2BF0A2C02A62E670004F5FB5 /* SMXSwipeTransitionAnimator.m */,
+				2BF0A2C22A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.h */,
+				2BF0A2C32A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.m */,
+				2B0D86072A64DF7D00894EAA /* SMXSwipeTransitionDelegate.h */,
+				2B0D86082A64DF7D00894EAA /* SMXSwipeTransitionDelegate.m */,
+			);
+			path = swipe;
+			sourceTree = "<group>";
+		};
+		2BF414512A51B73E00480F9B = {
+			isa = PBXGroup;
+			children = (
+				2BF4145C2A51B73E00480F9B /* SMXTranstionStudy */,
+				2BF414782A51B73F00480F9B /* SMXTranstionStudyTests */,
+				2BF414822A51B73F00480F9B /* SMXTranstionStudyUITests */,
+				2BF4145B2A51B73E00480F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF4145B2A51B73E00480F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF4145A2A51B73E00480F9B /* SMXTranstionStudy.app */,
+				2BF414752A51B73F00480F9B /* SMXTranstionStudyTests.xctest */,
+				2BF4147F2A51B73F00480F9B /* SMXTranstionStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF4145C2A51B73E00480F9B /* SMXTranstionStudy */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A6FE62AAED5D700C89076 /* Custom Presentation */,
+				2BF4145D2A51B73E00480F9B /* AppDelegate.h */,
+				2BF0A2B82A62E4B3004F5FB5 /* swipe */,
+				2BF414922A51BAB600480F9B /* jianbian */,
+				2BF4145E2A51B73E00480F9B /* AppDelegate.m */,
+				2BF414602A51B73E00480F9B /* SceneDelegate.h */,
+				2BF414612A51B73E00480F9B /* SceneDelegate.m */,
+				2BF414632A51B73E00480F9B /* ViewController.h */,
+				2BF414642A51B73E00480F9B /* ViewController.m */,
+				2BF414692A51B73F00480F9B /* Assets.xcassets */,
+				2BF4146B2A51B73F00480F9B /* LaunchScreen.storyboard */,
+				2BF4146E2A51B73F00480F9B /* Info.plist */,
+				2BF4146F2A51B73F00480F9B /* main.m */,
+			);
+			path = SMXTranstionStudy;
+			sourceTree = "<group>";
+		};
+		2BF414782A51B73F00480F9B /* SMXTranstionStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF414792A51B73F00480F9B /* SMXTranstionStudyTests.m */,
+			);
+			path = SMXTranstionStudyTests;
+			sourceTree = "<group>";
+		};
+		2BF414822A51B73F00480F9B /* SMXTranstionStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF414832A51B73F00480F9B /* SMXTranstionStudyUITests.m */,
+				2BF414852A51B73F00480F9B /* SMXTranstionStudyUITestsLaunchTests.m */,
+			);
+			path = SMXTranstionStudyUITests;
+			sourceTree = "<group>";
+		};
+		2BF414922A51BAB600480F9B /* jianbian */ = {
+			isa = PBXGroup;
+			children = (
+				2BF414932A51BAD600480F9B /* SMXJianBianViewController.h */,
+				2BF414942A51BAD600480F9B /* SMXJianBianViewController.m */,
+				2BF414962A51BBD100480F9B /* SMXJianBianSubViewController.h */,
+				2BF414972A51BBD100480F9B /* SMXJianBianSubViewController.m */,
+				2BF0A2B52A629265004F5FB5 /* SMXJianBianTransitionAnimator.h */,
+				2BF0A2B62A629265004F5FB5 /* SMXJianBianTransitionAnimator.m */,
+			);
+			path = jianbian;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF414592A51B73E00480F9B /* SMXTranstionStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF414892A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudy" */;
+			buildPhases = (
+				2BF414562A51B73E00480F9B /* Sources */,
+				2BF414572A51B73E00480F9B /* Frameworks */,
+				2BF414582A51B73E00480F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMXTranstionStudy;
+			productName = SMXTranstionStudy;
+			productReference = 2BF4145A2A51B73E00480F9B /* SMXTranstionStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF414742A51B73F00480F9B /* SMXTranstionStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF4148C2A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudyTests" */;
+			buildPhases = (
+				2BF414712A51B73F00480F9B /* Sources */,
+				2BF414722A51B73F00480F9B /* Frameworks */,
+				2BF414732A51B73F00480F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF414772A51B73F00480F9B /* PBXTargetDependency */,
+			);
+			name = SMXTranstionStudyTests;
+			productName = SMXTranstionStudyTests;
+			productReference = 2BF414752A51B73F00480F9B /* SMXTranstionStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BF4147E2A51B73F00480F9B /* SMXTranstionStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF4148F2A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudyUITests" */;
+			buildPhases = (
+				2BF4147B2A51B73F00480F9B /* Sources */,
+				2BF4147C2A51B73F00480F9B /* Frameworks */,
+				2BF4147D2A51B73F00480F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF414812A51B73F00480F9B /* PBXTargetDependency */,
+			);
+			name = SMXTranstionStudyUITests;
+			productName = SMXTranstionStudyUITests;
+			productReference = 2BF4147F2A51B73F00480F9B /* SMXTranstionStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF414522A51B73E00480F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2BF414592A51B73E00480F9B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2BF414742A51B73F00480F9B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BF414592A51B73E00480F9B;
+					};
+					2BF4147E2A51B73F00480F9B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BF414592A51B73E00480F9B;
+					};
+				};
+			};
+			buildConfigurationList = 2BF414552A51B73E00480F9B /* Build configuration list for PBXProject "SMXTranstionStudy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BF414512A51B73E00480F9B;
+			productRefGroup = 2BF4145B2A51B73E00480F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF414592A51B73E00480F9B /* SMXTranstionStudy */,
+				2BF414742A51B73F00480F9B /* SMXTranstionStudyTests */,
+				2BF4147E2A51B73F00480F9B /* SMXTranstionStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF414582A51B73E00480F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF4146D2A51B73F00480F9B /* LaunchScreen.storyboard in Resources */,
+				2BF4146A2A51B73F00480F9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF414732A51B73F00480F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF4147D2A51B73F00480F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF414562A51B73E00480F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF414952A51BAD600480F9B /* SMXJianBianViewController.m in Sources */,
+				2BF0A2C12A62E670004F5FB5 /* SMXSwipeTransitionAnimator.m in Sources */,
+				2BF0A2BE2A62E648004F5FB5 /* SMXSwipeSubViewController.m in Sources */,
+				2BF414652A51B73E00480F9B /* ViewController.m in Sources */,
+				2BF0A2BB2A62E636004F5FB5 /* SMXSwipeViewController.m in Sources */,
+				2B9A6FEF2AAED71900C89076 /* SMXPresentationController.m in Sources */,
+				2BF0A2C42A62E685004F5FB5 /* SMXSwipeInteractiveTransitionAnimator.m in Sources */,
+				2BF4145F2A51B73E00480F9B /* AppDelegate.m in Sources */,
+				2BF414702A51B73F00480F9B /* main.m in Sources */,
+				2BF0A2B72A629265004F5FB5 /* SMXJianBianTransitionAnimator.m in Sources */,
+				2B0D86092A64DF7D00894EAA /* SMXSwipeTransitionDelegate.m in Sources */,
+				2BF414982A51BBD100480F9B /* SMXJianBianSubViewController.m in Sources */,
+				2B9A6FE92AAED6E700C89076 /* SMXPrestationFirstViewViewController.m in Sources */,
+				2BF414622A51B73E00480F9B /* SceneDelegate.m in Sources */,
+				2B9A6FEC2AAED6FB00C89076 /* SMXPrestationSubViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF414712A51B73F00480F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF4147A2A51B73F00480F9B /* SMXTranstionStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF4147B2A51B73F00480F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF414862A51B73F00480F9B /* SMXTranstionStudyUITestsLaunchTests.m in Sources */,
+				2BF414842A51B73F00480F9B /* SMXTranstionStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BF414772A51B73F00480F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF414592A51B73E00480F9B /* SMXTranstionStudy */;
+			targetProxy = 2BF414762A51B73F00480F9B /* PBXContainerItemProxy */;
+		};
+		2BF414812A51B73F00480F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF414592A51B73E00480F9B /* SMXTranstionStudy */;
+			targetProxy = 2BF414802A51B73F00480F9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BF4146B2A51B73F00480F9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF4146C2A51B73F00480F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF414872A51B73F00480F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BF414882A51B73F00480F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BF4148A2A51B73F00480F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TBX22VE2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SMXTranstionStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Cosign iOS Wildcard (0FG49GLDXX)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF4148B2A51B73F00480F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TBX22VE2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SMXTranstionStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Cosign iOS Wildcard (0FG49GLDXX)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF4148D2A51B73F00480F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMXTranstionStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMXTranstionStudy";
+			};
+			name = Debug;
+		};
+		2BF4148E2A51B73F00480F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMXTranstionStudy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMXTranstionStudy";
+			};
+			name = Release;
+		};
+		2BF414902A51B73F00480F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMXTranstionStudy;
+			};
+			name = Debug;
+		};
+		2BF414912A51B73F00480F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = smx.SMXTranstionStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMXTranstionStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF414552A51B73E00480F9B /* Build configuration list for PBXProject "SMXTranstionStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF414872A51B73F00480F9B /* Debug */,
+				2BF414882A51B73F00480F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF414892A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF4148A2A51B73F00480F9B /* Debug */,
+				2BF4148B2A51B73F00480F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF4148C2A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF4148D2A51B73F00480F9B /* Debug */,
+				2BF4148E2A51B73F00480F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF4148F2A51B73F00480F9B /* Build configuration list for PBXNativeTarget "SMXTranstionStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF414902A51B73F00480F9B /* Debug */,
+				2BF414912A51B73F00480F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BF414522A51B73E00480F9B /* Project object */;
+}

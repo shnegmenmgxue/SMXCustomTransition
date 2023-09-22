@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SMXPresentationController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SMXPrestationFSubViewViewController : UIViewController
+@interface SMXPrestationSubViewViewController : UIViewController
 
 @end
 
